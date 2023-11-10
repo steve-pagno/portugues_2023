@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Sky;
+    src: url('coolvetica\ rg.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #373739;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+    display: inline;
+}
+
+nav h1 a img {
+    width: 100px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    background-color: #F28705;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: coral;
+    color: black;
+    background-color: #8C4E03;
+    width: 375px;
+}
+
+
+.clearfix {
+    overflow: auto;
+    font-family: Sky;
+    font-size: medium;
+
+}
+
+main {
+    background-color: #000;
+}
+
+main img {
+    border: 5px solid #F28705;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Grade de Clunas*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #000;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+button {
+    text-align: center;
+    background-color: #F28705;
+    border-radius: 50px;
+    width: 50%;
+    height: 50px;
+    font-family: Sky;
+    font-size: 100%;
+}
+
+button:hover {
+    background-color: #8C4E03;
+    cursor: pointer;
+}
+
+#pedido {
+    float: right;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 20px;
+    border: 3px solid #F28705;
+  }
